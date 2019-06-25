@@ -1,0 +1,498 @@
+body {
+    background-size: 1050px 1800px;
+    background-image: url(./imagen-fondo/background-2413074.jpg);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+header { 
+    width: 960px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    margin-right: auto;
+    margin-left: auto; 
+    margin-bottom: 10px;
+}
+#marca {
+    width: 150px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 150px;
+    float: left;
+}
+#marca img {
+    width: 190px;
+    height: 80px;
+    margin-top: 10px;
+}
+nav {
+    width:450px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    margin-right: 150px;
+    float:right;
+    font-style: bold;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li a {
+    width:108px;
+    height: 80px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height:50px;
+    font-weight: italic; 
+}
+.menu li {
+    display: inline;
+}
+.menu li a {   
+    display:inline-block;    
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    text-align: center;
+    border:none;
+}
+.menu li a:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+ }
+section {
+    width: 960px;
+    height: 1200px;
+    background-color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+aside img {
+    width: 960px;
+    height:200px;
+}
+#imagen_izq img {
+    width: 300px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.876);
+}
+#texto_der {
+    width: 350px;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    float: right;
+    color: white;
+    box-sizing: border-box;
+}
+#texto_der h1 {
+margin: 0px;
+padding: 10px;
+text-align: center;
+font-size: 30px;
+}
+#texto_der p {   
+padding: 5px;
+text-align: justify;
+font-size: 14px;
+}
+#contenedor_izq {
+    width: 150px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: left;
+    box-sizing: border-box;
+    background-image: url("imagenes/bangkok1_edited.jpg");
+    background-size: 150px 250px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
+}
+#cont_izq_text {
+    color:white;
+    text-align: center;
+    font-size: 10px;
+    margin-top:0px;
+    padding: 2px;
+    background-color: rgba(68, 68, 67, 0.438);
+    opacity: 0;
+}
+#contenedor_izq:hover #cont_izq_text {
+opacity: 1;
+}
+#boton_izq {
+    display: block;
+    margin-top: 230px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 150px;
+    box-sizing: border-box;
+    background-color:rgba(93, 93, 90, 0.411);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px white solid;
+    
+}
+#boton_izq a {
+    text-decoration: none;
+    color: white;
+}
+#boton_izq a:hover {
+    opacity: 0.5;  
+}
+#contenedor_cen {
+    width: 150px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 55px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: left;
+    box-sizing: border-box;
+    background-image: url("imagenes/playa_edited.jpg");
+    background-size: 150px 250px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
+}
+#cont_cen_text {
+    color:white;
+    text-align: center;
+    font-size: 10px;
+    margin-top:0px;
+    padding: 2px;
+    background-color: rgba(68, 68, 67, 0.438);
+    opacity: 0;
+}
+#contenedor_cen:hover #cont_cen_text {
+    opacity: 1;
+    }
+#boton_cen {
+     display: block;
+     margin-top: 230px;
+     margin-bottom: 5px;
+     margin-left: 5px;
+     padding: 5px;
+     width: 150px;
+     box-sizing: border-box;
+     background-color:rgba(93, 93, 90, 0.411);
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border-radius: 15px;
+     text-align: center;
+     border: 1px white solid;
+        
+    }
+    #boton_cen a {
+        text-decoration: none;
+        color: white;
+    }
+    #boton_cen a:hover {
+        opacity: 0.5;
+    }
+#contenedor_der {
+    width: 150px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 55px;
+    margin-right:200px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float:right;
+    box-sizing: border-box;
+    background-image: url("imagenes/templo_edited.jpg");
+    background-size: 150px 250px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
+}
+#cont_der_text {
+    color:white;
+    text-align: center;
+    font-size: 10px;
+    margin-top:0px;
+    padding: 2px;
+    background-color: rgba(68, 68, 67, 0.438);
+    opacity: 0;  
+}
+#contenedor_der:hover #cont_der_text {
+    opacity: 1;
+}
+ #boton_der {
+    display: block;
+    margin-top: 230px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 150px;
+    box-sizing: border-box;
+    background-color:rgba(93, 93, 90, 0.411);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px white solid;
+        
+    }
+    #boton_der a {
+        text-decoration: none;
+        color: white;
+    }
+    #boton_der a:hover {
+        opacity: 0.5;
+    }
+
+#cont-dest {
+    color: white;
+    background-color:rgba(255, 255, 255, 0.322);
+    width: 960px;
+    height: 50px;
+    box-sizing: border-box;
+}
+#cont-dest h2 {
+    margin-top:10px;
+    margin-bottom: auto;
+    margin-left: 15px;
+    padding: 5px;
+}
+#destino, #video {
+    width: 50%;
+    float: left;
+}
+#video {
+ margin-top: 0px;
+ margin-left: 20px;
+}
+#destino {
+    color: white;
+    font-size: 15px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 25px;
+    float: left;
+    
+}
+#galeria{
+    width: 960px;
+    height: 350px;
+    float: left;
+    margin-top: 50px;
+}
+#cont_foto_1{
+    width: 280px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right:10px;
+    margin-top: 35px;
+    background-image:url("imagenes/cont_1_edited.jpg");
+    background-size: 280px 200px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+
+}
+#cont_foto_1 img {
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+   
+}
+#cont_info_1{
+    color:white;
+    background-color: rgba(68, 68, 67, 0.705);
+    width: 280px;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0;
+}
+#cont_foto_1:hover #cont_info_1{
+    opacity: 1;
+}
+
+#boton_cont_1 a {
+    text-decoration: none;
+    color: white;
+}
+#cont_foto_2{
+    width: 280px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right:10px;
+    margin-top: 35px;
+    background-image:url("imagenes/cont_2_edited.jpg");
+    background-size: 280px 200px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+}
+#cont_foto_2 img {
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+}
+#cont_info_2{
+    color:white;
+    background-color: rgba(68, 68, 67, 0.705);
+    width: 280px;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0;
+}
+#cont_foto_2:hover #cont_info_2{
+    opacity: 1;
+}
+
+#boton_cont_2 a {
+    text-decoration: none;
+    color: white;
+}
+   
+#cont_foto_3{
+    width: 280px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right:30px;
+    margin-top: 35px;
+    background-image:url("imagenes/cont_3_edited.jpg");
+    background-size: 280px 200px;
+    float: right;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+}
+#cont_foto_3 img {
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+}
+#cont_info_3{
+    color:white;
+    background-color: rgba(68, 68, 67, 0.705);
+    width: 280px;
+    height: 200px;
+    float: right;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0;
+}
+#cont_foto_3:hover #cont_info_3{
+    opacity: 1;
+}
+
+#boton_cont_3 a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {   
+    width: 960px;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#texto_contacto {
+    width:200px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 380px;
+    margin-right: 380px;
+    margin-top: 50px;
+    float: left;
+    color: white;
+    box-sizing: border-box;
+}
+#texto_contacto h2 {
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+    font-style: normal;
+}
+#texto_contacto p {
+    padding: 5px;
+    text-align: justify;
+    font-size: 10px;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}
+#texto_contacto a {
+    text-decoration: none;
+}
+#contenedor_contacto {
+    width: 460px;
+    height: 200px;
+    background-color:black;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+    float: left;
+}
+#formulario{
+    width: 500px;
+    height: 200px;
+}
+input, textarea {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 450px;
+    box-sizing: border-box;
+    background-color:rgba(93, 93, 90, 0.411);
+    border: 2px white solid;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type=submit]:hover {
+    background-color: rgba(255, 255, 255, 0.322);
+}
+#redes {
+    width: 460px;
+    height: 50px;
+    background-color:  rgba(0, 0, 0, 0.712);
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    float:left;
+    box-sizing: border-box;
+}
+#redes img {
+    width: 22px; 
+}
+#redes li {
+    display: inline;
+    clear: both;
+}
+#redes li a {   
+    display:inline-block;
+    clear:both;
+    width: 65px;
+    padding: 5px;
+    padding-left:40px;
+}
+#redes img:hover {
+width: 26px;
+}

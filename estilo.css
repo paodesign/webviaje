@@ -1,9 +1,8 @@
 body {
     background-size: 1050px 1800px;
     background-image: url(./imagen-fondo/background-2413074.jpg);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-    
+    font-family: 'Cormorant Upright', serif;
+}   
 header { 
     width: 960px;
     height: 80px;
@@ -41,9 +40,9 @@ li a {
     width:108px;
     height: 80px;
     text-decoration: none;
-    font-size: 18px; 
+    font-size: 20px; 
     line-height:50px;
-    font-weight: italic; 
+    font-weight: italic;
 }
 .menu li {
     display: inline;
@@ -90,7 +89,7 @@ aside img {
     margin-bottom: 20px;
     float: right;
     color: white;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 #texto_der h1 {
 margin: 0px;
@@ -101,21 +100,22 @@ font-size: 30px;
 #texto_der p {   
 padding: 5px;
 text-align: justify;
-font-size: 14px;
+font-size: 16px;
+font-style: normal;
 }
 #contenedor_izq {
-    width: 150px;
-    height: 250px;
-    background-color: rgb(0, 0, 0);
-    margin-left: 200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    float: left;
-    box-sizing: border-box;
-    background-image: url("imagenes/bangkok1_edited.jpg");
-    background-size: 150px 250px;
-    border-radius: 0px 0px 15px 15px;
-    box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
+width: 150px;
+height: 250px;
+background-color: rgb(0, 0, 0);
+margin-left: 200px;
+margin-top: 100px;
+margin-bottom: 100px;
+float: left;
+box-sizing: border-box;
+background-image: url("imagenes/bangkok1_edited.jpg");
+background-size: 150px 250px;
+border-radius: 0px 0px 15px 15px;
+box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
 }
 #cont_izq_text {
     color:white;
@@ -127,7 +127,7 @@ font-size: 14px;
     opacity: 0;
 }
 #contenedor_izq:hover #cont_izq_text {
-opacity: 1;
+    opacity: 1;
 }
 #boton_izq {
     display: block;
@@ -139,11 +139,11 @@ opacity: 1;
     box-sizing: border-box;
     background-color:rgba(93, 93, 90, 0.411);
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 18px;
     border-radius: 15px;
     text-align: center;
     border: 1px white solid;
-    
 }
 #boton_izq a {
     text-decoration: none;
@@ -177,7 +177,7 @@ opacity: 1;
 }
 #contenedor_cen:hover #cont_cen_text {
     opacity: 1;
-    }
+}
 #boton_cen {
      display: block;
      margin-top: 230px;
@@ -188,19 +188,19 @@ opacity: 1;
      box-sizing: border-box;
      background-color:rgba(93, 93, 90, 0.411);
      color: white;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-family: 'Cormorant Upright', serif;
+     font-size: 18px;
      border-radius: 15px;
      text-align: center;
-     border: 1px white solid;
-        
-    }
-    #boton_cen a {
-        text-decoration: none;
-        color: white;
-    }
-    #boton_cen a:hover {
-        opacity: 0.5;
-    }
+     border: 1px white solid;       
+}
+#boton_cen a {
+    text-decoration: none;
+    color: white;
+}
+#boton_cen a:hover {
+    opacity: 0.5;
+}
 #contenedor_der {
     width: 150px;
     height: 250px;
@@ -238,20 +238,19 @@ opacity: 1;
     box-sizing: border-box;
     background-color:rgba(93, 93, 90, 0.411);
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 18px;
     border-radius: 15px;
     text-align: center;
     border: 1px white solid;
-        
-    }
-    #boton_der a {
-        text-decoration: none;
-        color: white;
-    }
-    #boton_der a:hover {
-        opacity: 0.5;
-    }
-
+}
+ #boton_der a {
+    text-decoration: none;
+    color: white;
+}
+#boton_der a:hover {
+    opacity: 0.5;
+}
 #cont-dest {
     color: white;
     background-color:rgba(255, 255, 255, 0.322);
@@ -275,39 +274,36 @@ opacity: 1;
 }
 #destino {
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     width: 400px;
     box-sizing: border-box;
     padding: 10px;
     margin-left: 25px;
-    float: left;
-    
+    float: left;   
 }
 #galeria{
     width: 960px;
-    height: 350px;
+    height: 300px;
     float: left;
     margin-top: 50px;
 }
 #cont_foto_1{
     width: 280px;
     height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: 20px;
     margin-right:10px;
-    margin-top: 35px;
+    margin-top: 15px;
     background-image:url("imagenes/cont_1_edited.jpg");
     background-size: 280px 200px;
     float: left;
     box-sizing: border-box;
     border-radius: 15px;
     box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
-
 }
 #cont_foto_1 img {
     border-radius: 15px;
-    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
-   
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876); 
 }
 #cont_info_1{
     color:white;
@@ -323,7 +319,6 @@ opacity: 1;
 #cont_foto_1:hover #cont_info_1{
     opacity: 1;
 }
-
 #boton_cont_1 a {
     text-decoration: none;
     color: white;
@@ -331,10 +326,10 @@ opacity: 1;
 #cont_foto_2{
     width: 280px;
     height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: 20px;
     margin-right:10px;
-    margin-top: 35px;
+    margin-top: 15px;
     background-image:url("imagenes/cont_2_edited.jpg");
     background-size: 280px 200px;
     float: left;
@@ -346,7 +341,7 @@ opacity: 1;
     border-radius: 15px;
     box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
 }
-#cont_info_2{
+#cont_info_2 {
     color:white;
     background-color: rgba(68, 68, 67, 0.705);
     width: 280px;
@@ -357,22 +352,20 @@ opacity: 1;
     text-align: center;
     opacity: 0;
 }
-#cont_foto_2:hover #cont_info_2{
+#cont_foto_2:hover #cont_info_2 {
     opacity: 1;
 }
-
 #boton_cont_2 a {
     text-decoration: none;
     color: white;
 }
-   
-#cont_foto_3{
+#cont_foto_3 {
     width: 280px;
     height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: 10px;
     margin-right:30px;
-    margin-top: 35px;
+    margin-top: 15px;
     background-image:url("imagenes/cont_3_edited.jpg");
     background-size: 280px 200px;
     float: right;
@@ -384,7 +377,7 @@ opacity: 1;
     border-radius: 15px;
     box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
 }
-#cont_info_3{
+#cont_info_3 {
     color:white;
     background-color: rgba(68, 68, 67, 0.705);
     width: 280px;
@@ -398,12 +391,165 @@ opacity: 1;
 #cont_foto_3:hover #cont_info_3{
     opacity: 1;
 }
-
 #boton_cont_3 a {
     text-decoration: none;
     color: white;
 }
-
+#nosotros_text {
+    color: white;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    text-align: justify;
+}
+#nosotros_text_2{
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    text-align: justify;
+}
+#nosotros_text_3 {
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    text-align: justify;
+}
+#nos_foto_izq {
+    background-image: url(./imagenes/leo2_edited.jpg);
+    background-size: 400px 200px;
+    float: left;
+    width: 400px;
+    height:200px ;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+}
+#nos_info_1 {
+    color:rgb(255, 255, 255);
+    background-color: rgba(68, 68, 67, 0.705);
+    width: 400px;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0;
+}
+#nos_foto_izq:hover #nos_info_1{
+    opacity: 1;
+}
+#nos_info_1 p {
+    margin-left:5px;
+    margin-right: 5px;
+    font-style: italic;
+    margin-top: 100px;
+}
+#nos_foto_der {
+    background-image: url(./imagenes/pao3_edited.jpg);
+    background-size: 400px 200px;
+    float: left;
+    width: 400px;
+    height:200px ;
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+}
+#nos_info_2 {
+    color:rgb(255, 255, 255);
+    background-color: rgba(68, 68, 67, 0.705);
+    width: 400px;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0;
+}
+#nos_foto_der:hover #nos_info_2 {
+    opacity: 1;
+}
+#nos_info_2 p {
+    margin-left:5px;
+    margin-right: 5px;
+    font-style: italic;
+    margin-top: 100px;
+}
+#nos_fotos {
+    width: 960px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+}
+#nos_foto1 {
+    background-image: url(./imagenes/8_edited.jpg);
+    background-size: 150px 200px;
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    border-radius: 15px;
+}
+#nos_foto2 {
+    background-image: url(./imagenes/7_edited.jpg);
+    background-size: 150px 200px;
+    width: 150px;
+    height: 200px;
+    float: left;
+    border-radius: 15px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+#nos_foto3 {
+    background-image: url(./imagenes/1edited.jpg);
+    background-size: 150px 200px;
+    width: 150px;
+    height: 200px;
+    float: left;
+    border-radius: 15px;
+    margin-right: 16px;
+    margin-left: 16px
+}
+#nos_foto4 {
+    background-image: url(./imagenes/2_edited.jpg);
+    background-size: 150px 200px;
+    width: 150px;
+    height: 200px;
+    float: left;
+    border-radius: 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+#nos_foto5 {
+    background-image: url(./imagenes/5_edited.jpg);
+    background-size: 150px 200px;
+    width: 150px;
+    height: 200px;
+    float: left;
+    border-radius: 15px;
+    margin-left: 16px;
+    margin-right: 20px;
+}
 footer {   
     width: 960px;
     height: 450px;
@@ -432,7 +578,7 @@ footer {
 #texto_contacto p {
     padding: 5px;
     text-align: justify;
-    font-size: 10px;
+    font-size: 13px;
     font-style: italic;
     text-decoration: none;
     color: white;
@@ -464,7 +610,9 @@ input, textarea {
     background-color:rgba(93, 93, 90, 0.411);
     border: 2px white solid;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Cormorant Upright', serif;
+    font-style: bold;
+    font-size: 15px;
 }
 input[type=submit]:hover {
     background-color: rgba(255, 255, 255, 0.322);

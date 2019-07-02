@@ -293,9 +293,7 @@ aside img {
     margin-bottom: 5px;
 }
 #nosotros_text_3 {
-
     margin-bottom: 5px;
-   
 }
 #nos_foto_izq, #nos_foto_der {
     margin-bottom: 20px;
@@ -307,9 +305,7 @@ aside img {
     width: 400px;
     height:200px ;
     margin-top: 25px;
-
 }
-
 #nos_foto_izq {
     background-image: url(./imagenes/leo2_edited.jpg);
     margin-left: 40px;
@@ -482,3 +478,393 @@ input[type=submit]:hover {
 #redes img:hover {
 width: 26px;
 }
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    body {
+        background-size: 590px 1300px;
+    }   
+    header { 
+        width: 580px;
+        height: 160px;
+    }
+    #marca {
+        width: 150px;
+        height: 80px;
+    }
+    #marca img {
+        width: 150px;
+        height: 80px;
+        margin-left: 250px;
+    }
+    nav {
+        width:430px;
+        height: 80px;
+     
+    }
+    li a {
+        width:100px;
+        height: 80px;
+    }
+    section {
+        width: 580px;
+    }
+    aside img {
+        width: 580px;
+        height:200px;
+    }
+    #imagen_izq img {
+        width: 150px;
+        height: 200px;
+        margin-left: 30px;
+      
+    }
+    #texto_der {
+        width: 320px;
+        height: 300px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+   
+    }
+    #texto_der h1 {
+        padding: 5px;
+        text-align: center;
+        font-size: 27px;
+    }
+    #texto_der p {   
+        padding: 5px;
+        font-size: 15px;
+    }
+    #contenedor_izq,#contenedor_cen, #contenedor_der {
+        width: 120px;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+        margin-top: 100px;
+        margin-bottom: 30px;
+
+    }
+    #contenedor_izq {
+        margin-left: 50px;
+        background-size: 120px 200px;
+    }
+
+    #boton_izq, #boton_cen, #boton_der{
+        margin-top: 180px;
+        padding: 2px;
+        width: 120px;
+        font-size: 15px;
+    }
+    #contenedor_cen {
+        margin-left: 40px;
+        background-size: 120px 200px;
+    }
+    #contenedor_der {
+        margin-left: 40px;
+        margin-right:50px; 
+        float:right;
+        background-image: url("imagenes/templo_edited.jpg");
+        background-size: 120px 200px;
+    }
+    #contenedor_der:hover #cont_der_text {
+        opacity: 1;
+    }
+    #boton_der a:hover {
+        opacity: 0.5;
+    }
+    #cont-dest {
+        color: white;
+        background-color:rgba(255, 255, 255, 0.322);
+        width: 960px;
+        height: 50px;
+        box-sizing: border-box;
+    }
+    #cont-dest h2 {
+        margin-top:10px;
+        margin-bottom: auto;
+        margin-left: 15px;
+        padding: 5px;
+    }
+    #destino, #video {
+        width: 50%;
+        float: left;
+    }
+    #video {
+     margin-top: 0px;
+     margin-left: 20px;
+    }
+    #destino {
+        color: white;
+        font-size: 16px;
+        width: 400px;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-left: 25px;
+        float: left;   
+    }
+    #galeria{
+        width: 960px;
+        height: 300px;
+        float: left;
+        margin-top: 50px;
+    }
+    #cont_foto_1,#cont_foto_2, #cont_foto_3{
+        width: 280px;
+        height: 200px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right:10px;
+        margin-top: 15px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+    }
+    #cont_foto_1{
+        background-image:url("imagenes/cont_1_edited.jpg");
+        background-size: 280px 200px;
+        float: left;
+    }
+    #cont_foto_1 img, #cont_foto_2 img,#cont_foto_3 img {
+        border-radius: 15px;
+        box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876); 
+    }
+    #cont_info_1, #cont_info_2,#cont_info_3 {
+        color:white;
+        background-color: rgba(68, 68, 67, 0.705);
+        width: 280px;
+        height: 200px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        opacity: 0;
+    }
+    #cont_info_1 {
+        float: left;
+    }
+    #cont_foto_1:hover #cont_info_1{
+        opacity: 1;
+    }
+    #boton_cont_1 a, #boton_cont_2 a, #boton_cont_3 a{
+        text-decoration: none;
+        color: white;
+    }
+    #cont_foto_2{
+        background-image:url("imagenes/cont_2_edited.jpg");
+        background-size: 280px 200px;
+        float: left;
+    }
+    #cont_info_2 {
+        float: left;
+    }
+    #cont_foto_2:hover #cont_info_2 {
+        opacity: 1;
+    }
+    #cont_foto_3 {
+        background-image:url("imagenes/cont_3_edited.jpg");
+        background-size: 280px 200px;
+        float: right;
+    }
+    #cont_info_3 {
+        float: right;
+    }
+    #cont_foto_3:hover #cont_info_3{
+        opacity: 1;
+    }
+    #nosotros_text, #nosotros_text_2, #nosotros_text_3 {
+        color: white;
+        margin-top: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 17px;
+        text-align: justify;
+    }
+    #nosotros_text {
+        margin-bottom: 10px;   
+    }
+    #nosotros_text_2 {
+        margin-bottom: 5px;
+    }
+    #nosotros_text_3 {
+        margin-bottom: 5px;
+    }
+    #nos_foto_izq, #nos_foto_der {
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+        background-size: 400px 200px;
+        float: left;
+        width: 400px;
+        height:200px ;
+        margin-top: 25px;
+    }
+    #nos_foto_izq {
+        background-image: url(./imagenes/leo2_edited.jpg);
+        margin-left: 40px;
+    }
+    #nos_foto_der {
+        background-image: url(./imagenes/pao3_edited.jpg);
+        margin-left: 70px;
+    }
+    #nos_info_1, #nos_info_2 {
+        color:rgb(255, 255, 255);
+        background-color: rgba(68, 68, 67, 0.705);
+        width: 400px;
+        height: 200px;
+        float: left;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        opacity: 0;
+    }
+    #nos_foto_izq:hover #nos_info_1{
+        opacity: 1;
+    }
+    #nos_info_1 p, #nos_info_2 p {
+        margin-left:5px;
+        margin-right: 5px;
+        font-style: italic;
+        margin-top: 100px;
+    }
+    #nos_foto_der:hover #nos_info_2 {
+        opacity: 1;
+    }
+    #nos_fotos {
+        width: 960px;
+        height: 200px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+        float: left;
+        box-sizing: border-box;
+        display: block;
+    }
+    #nos_fotos div {
+        background-size: 150px 200px;
+        width: 150px;
+        height: 200px;
+        border-radius: 15px;
+        float: left;
+    }
+    #nos_foto1 {
+        background-image: url(./imagenes/8_edited.jpg);
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 16px;
+    }
+    #nos_foto2 {
+        background-image: url(./imagenes/7_edited.jpg);
+        border-radius: 15px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    #nos_foto3 {
+        background-image: url(./imagenes/1edited.jpg);
+        border-radius: 15px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    #nos_foto4 {
+        background-image: url(./imagenes/2_edited.jpg);
+        border-radius: 15px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    #nos_foto5 {
+        background-image: url(./imagenes/5_edited.jpg);
+        border-radius: 15px;
+        margin-left: 16px;
+        margin-right: 20px;
+    }
+    footer {   
+        width: 960px;
+        height: 450px;
+        background-color: rgb(0, 0, 0);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    #texto_contacto {
+        width:200px;
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+        margin-left: 380px;
+        margin-right: 380px;
+        margin-top: 50px;
+        float: left;
+        color: white;
+        box-sizing: border-box;
+    }
+    #texto_contacto h2 {
+        padding: 5px;
+        text-align: center;
+        margin: 0px;
+        font-style: normal;
+    }
+    #texto_contacto p {
+        padding: 5px;
+        text-align: justify;
+        font-size: 13px;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+    }
+    #texto_contacto a {
+        text-decoration: none;
+    }
+    #contenedor_contacto {
+        width: 460px;
+        height: 200px;
+        background-color:black;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 10px;
+        float: left;
+    }
+    #formulario{
+        width: 500px;
+        height: 200px;
+    }
+    input, textarea {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        padding: 5px;
+        width: 450px;
+        box-sizing: border-box;
+        background-color:rgba(93, 93, 90, 0.411);
+        border: 2px white solid;
+        color: white;
+        font-family: 'Cormorant Upright', serif;
+        font-style: bold;
+        font-size: 15px;
+    }
+    input[type=submit]:hover {
+        background-color: rgba(255, 255, 255, 0.322);
+    }
+    #redes {
+        width: 460px;
+        height: 50px;
+        background-color:  rgba(0, 0, 0, 0.712);
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 20px;
+        float:left;
+        box-sizing: border-box;
+    }
+    #redes img {
+        width: 22px; 
+    }
+    #redes li {
+        display: inline;
+        clear: both;
+    }
+    #redes li a {   
+        display:inline-block;
+        clear:both;
+        width: 65px;
+        padding: 5px;
+        padding-left:40px;
+    }
+    #redes img:hover {
+    width: 26px;
+    }
+} /*fin del media 600 a 1023px*/

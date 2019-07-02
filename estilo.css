@@ -294,20 +294,23 @@ aside img {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-#nos_foto_izq {
-    background-image: url(./imagenes/leo2_edited.jpg);
+#fotos_nos {
     background-size: 400px 200px;
-    float: left;
     width: 400px;
-    height:200px ;
-    margin-top: 25px;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    height:200px;
     box-sizing: border-box;
     border-radius: 15px;
     box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
-#nos_info_1 {
+#nos_foto_izq {
+    background-image: url(./imagenes/leo2_edited.jpg);
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#nos_info_1, #nos_info_2 {
     color:rgb(255, 255, 255);
     background-color: rgba(68, 68, 67, 0.705);
     width: 400px;
@@ -321,7 +324,7 @@ aside img {
 #nos_foto_izq:hover #nos_info_1{
     opacity: 1;
 }
-#nos_info_1 p {
+#nos_info_1 p, #nos_info_2 {
     margin-left:5px;
     margin-right: 5px;
     font-style: italic;
@@ -329,37 +332,11 @@ aside img {
 }
 #nos_foto_der {
     background-image: url(./imagenes/pao3_edited.jpg);
-    background-size: 400px 200px;
-    float: left;
-    width: 400px;
-    height:200px ;
-    margin-top: 25px;
     margin-left: 70px;
-    margin-bottom: 20px;
     margin-right: 40px;
-    box-sizing: border-box;
-    border-radius: 15px;
-    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
-}
-#nos_info_2 {
-    color:rgb(255, 255, 255);
-    background-color: rgba(68, 68, 67, 0.705);
-    width: 400px;
-    height: 200px;
-    float: left;
-    box-sizing: border-box;
-    border-radius: 15px;
-    text-align: center;
-    opacity: 0;
 }
 #nos_foto_der:hover #nos_info_2 {
     opacity: 1;
-}
-#nos_info_2 p {
-    margin-left:5px;
-    margin-right: 5px;
-    font-style: italic;
-    margin-top: 100px;
 }
 #nos_fotos {
     width: 960px;
@@ -371,54 +348,36 @@ aside img {
     box-sizing: border-box;
     display: block;
 }
-#nos_foto1 {
-    background-image: url(./imagenes/8_edited.jpg);
+#fotos_nos_1 {
     background-size: 150px 200px;
     width: 150px;
     height: 200px;
+    border-radius: 15px;
     float: left;
+}
+#nos_foto1 {
+    background-image: url(./imagenes/8_edited.jpg);
     margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 16px;
-    border-radius: 15px;
 }
 #nos_foto2 {
     background-image: url(./imagenes/7_edited.jpg);
-    background-size: 150px 200px;
-    width: 150px;
-    height: 200px;
-    float: left;
-    border-radius: 15px;
     margin-right: 16px;
     margin-left: 16px;
 }
 #nos_foto3 {
     background-image: url(./imagenes/1edited.jpg);
-    background-size: 150px 200px;
-    width: 150px;
-    height: 200px;
-    float: left;
-    border-radius: 15px;
     margin-right: 16px;
     margin-left: 16px
 }
 #nos_foto4 {
     background-image: url(./imagenes/2_edited.jpg);
-    background-size: 150px 200px;
-    width: 150px;
-    height: 200px;
-    float: left;
-    border-radius: 15px;
     margin-left: 16px;
     margin-right: 16px;
 }
 #nos_foto5 {
     background-image: url(./imagenes/5_edited.jpg);
-    background-size: 150px 200px;
-    width: 150px;
-    height: 200px;
-    float: left;
-    border-radius: 15px;
     margin-left: 16px;
     margin-right: 20px;
 }

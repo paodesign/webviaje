@@ -103,7 +103,7 @@ aside img {
     font-size: 16px;
     font-style: normal;
 }
-#contenedores_index{
+#contenedores_index {
     width: 150px;
     height: 250px;
     background-color: rgb(0, 0, 0);
@@ -213,140 +213,86 @@ aside img {
     float: left;
     margin-top: 50px;
 }
-#cont_foto_1{
+#fotos_destino {
     width: 280px;
     height: 200px;
     margin-bottom: 30px;
     margin-left: 20px;
     margin-right:10px;
     margin-top: 15px;
-    background-image:url("imagenes/cont_1_edited.jpg");
     background-size: 280px 200px;
-    float: left;
     box-sizing: border-box;
     border-radius: 15px;
     box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
 }
-#cont_foto_1 img {
+#cont_foto_1{
+    background-image:url("imagenes/cont_1_edited.jpg");
+    float: left;
+}
+#cont_foto_1 img, #cont_foto_2 img, #cont_foto_3 img {
     border-radius: 15px;
     box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876); 
 }
-#cont_info_1{
+#cont_info_1, #cont_info_2, #cont_info_3 {
     color:white;
     background-color: rgba(68, 68, 67, 0.705);
     width: 280px;
     height: 200px;
-    float: left;
     box-sizing: border-box;
     border-radius: 15px;
     text-align: center;
     opacity: 0;
+}
+#cont_info_1 {
+    float: left;
 }
 #cont_foto_1:hover #cont_info_1{
     opacity: 1;
 }
-#boton_cont_1 a {
+#boton_cont_1 a ,#boton_cont_2 a, #boton_cont_3 a{
     text-decoration: none;
     color: white;
 }
 #cont_foto_2{
-    width: 280px;
-    height: 200px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right:10px;
-    margin-top: 15px;
     background-image:url("imagenes/cont_2_edited.jpg");
-    background-size: 280px 200px;
     float: left;
-    box-sizing: border-box;
-    border-radius: 15px;
-    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
-}
-#cont_foto_2 img {
-    border-radius: 15px;
-    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
 }
 #cont_info_2 {
-    color:white;
-    background-color: rgba(68, 68, 67, 0.705);
-    width: 280px;
-    height: 200px;
     float: left;
-    box-sizing: border-box;
-    border-radius: 15px;
-    text-align: center;
-    opacity: 0;
 }
 #cont_foto_2:hover #cont_info_2 {
     opacity: 1;
 }
-#boton_cont_2 a {
-    text-decoration: none;
-    color: white;
-}
 #cont_foto_3 {
-    width: 280px;
-    height: 200px;
-    margin-bottom: 30px;
     margin-left: 10px;
     margin-right:30px;
-    margin-top: 15px;
     background-image:url("imagenes/cont_3_edited.jpg");
-    background-size: 280px 200px;
     float: right;
-    box-sizing: border-box;
-    border-radius: 15px;
-    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
-}
-#cont_foto_3 img {
-    border-radius: 15px;
-    box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
 }
 #cont_info_3 {
-    color:white;
-    background-color: rgba(68, 68, 67, 0.705);
-    width: 280px;
-    height: 200px;
     float: right;
-    box-sizing: border-box;
-    border-radius: 15px;
-    text-align: center;
-    opacity: 0;
 }
 #cont_foto_3:hover #cont_info_3{
     opacity: 1;
 }
-#boton_cont_3 a {
-    text-decoration: none;
+#texto_nos {
     color: white;
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 #nosotros_text {
-    color: white;
     margin-top: 25px;
-    margin-left: 30px;
-    margin-right: 30px;
     margin-bottom: 10px;
-    font-size: 17px;
-    text-align: justify;
 }
 #nosotros_text_2{
-    color: white;
     margin-top: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
     margin-bottom: 5px;
-    font-size: 17px;
-    text-align: justify;
 }
 #nosotros_text_3 {
-    color: white;
     margin-top: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
     margin-bottom: 5px;
-    font-size: 17px;
-    text-align: justify;
 }
 #nos_foto_izq {
     background-image: url(./imagenes/leo2_edited.jpg);

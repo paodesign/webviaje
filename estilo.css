@@ -92,32 +92,34 @@ aside img {
     box-sizing: border-box
 }
 #texto_der h1 {
-margin: 0px;
-padding: 10px;
-text-align: center;
-font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
 }
 #texto_der p {   
-padding: 5px;
-text-align: justify;
-font-size: 16px;
-font-style: normal;
+    padding: 5px;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+}
+#contenedores_index{
+    width: 150px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
+    box-sizing: border-box;
+    background-size: 150px 250px;
 }
 #contenedor_izq {
-width: 150px;
-height: 250px;
-background-color: rgb(0, 0, 0);
-margin-left: 200px;
-margin-top: 100px;
-margin-bottom: 100px;
-float: left;
-box-sizing: border-box;
-background-image: url("imagenes/bangkok1_edited.jpg");
-background-size: 150px 250px;
-border-radius: 0px 0px 15px 15px;
-box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
+    margin-left: 200px;
+    float: left;
+    background-image: url("imagenes/bangkok1_edited.jpg");  
 }
-#cont_izq_text {
+#cont_izq_text,#cont_cent_text, #cont_der_text {
     color:white;
     text-align: center;
     font-size: 10px;
@@ -129,7 +131,7 @@ box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
 #contenedor_izq:hover #cont_izq_text {
     opacity: 1;
 }
-#boton_izq {
+#boton_izq, #boton_cen, #boton_der {
     display: block;
     margin-top: 230px;
     margin-bottom: 5px;
@@ -145,7 +147,7 @@ box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
     text-align: center;
     border: 1px white solid;
 }
-#boton_izq a {
+#boton_izq a,#boton_cen a,#boton_der a {
     text-decoration: none;
     color: white;
 }
@@ -153,100 +155,24 @@ box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
     opacity: 0.5;  
 }
 #contenedor_cen {
-    width: 150px;
-    height: 250px;
-    background-color: rgb(0, 0, 0);
     margin-left: 55px;
-    margin-top: 100px;
-    margin-bottom: 100px;
     float: left;
-    box-sizing: border-box;
     background-image: url("imagenes/playa_edited.jpg");
-    background-size: 150px 250px;
-    border-radius: 0px 0px 15px 15px;
-    box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
-}
-#cont_cen_text {
-    color:white;
-    text-align: center;
-    font-size: 10px;
-    margin-top:0px;
-    padding: 2px;
-    background-color: rgba(68, 68, 67, 0.438);
-    opacity: 0;
 }
 #contenedor_cen:hover #cont_cen_text {
     opacity: 1;
-}
-#boton_cen {
-     display: block;
-     margin-top: 230px;
-     margin-bottom: 5px;
-     margin-left: 5px;
-     padding: 5px;
-     width: 150px;
-     box-sizing: border-box;
-     background-color:rgba(93, 93, 90, 0.411);
-     color: white;
-     font-family: 'Cormorant Upright', serif;
-     font-size: 18px;
-     border-radius: 15px;
-     text-align: center;
-     border: 1px white solid;       
-}
-#boton_cen a {
-    text-decoration: none;
-    color: white;
 }
 #boton_cen a:hover {
     opacity: 0.5;
 }
 #contenedor_der {
-    width: 150px;
-    height: 250px;
-    background-color: rgb(0, 0, 0);
     margin-left: 55px;
     margin-right:200px; 
-    margin-top: 100px;
-    margin-bottom: 100px;
     float:right;
-    box-sizing: border-box;
     background-image: url("imagenes/templo_edited.jpg");
-    background-size: 150px 250px;
-    border-radius: 0px 0px 15px 15px;
-    box-shadow: 5px 0px 7px rgba(255, 255, 255, 0.876);
-}
-#cont_der_text {
-    color:white;
-    text-align: center;
-    font-size: 10px;
-    margin-top:0px;
-    padding: 2px;
-    background-color: rgba(68, 68, 67, 0.438);
-    opacity: 0;  
 }
 #contenedor_der:hover #cont_der_text {
     opacity: 1;
-}
- #boton_der {
-    display: block;
-    margin-top: 230px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    padding: 5px;
-    width: 150px;
-    box-sizing: border-box;
-    background-color:rgba(93, 93, 90, 0.411);
-    color: white;
-    font-family: 'Cormorant Upright', serif;
-    font-size: 18px;
-    border-radius: 15px;
-    text-align: center;
-    border: 1px white solid;
-}
- #boton_der a {
-    text-decoration: none;
-    color: white;
 }
 #boton_der a:hover {
     opacity: 0.5;
@@ -642,5 +568,5 @@ input[type=submit]:hover {
     padding-left:40px;
 }
 #redes img:hover {
-width: 26px;
+    width: 26px;
 }

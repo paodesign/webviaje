@@ -506,6 +506,7 @@ width: 26px;
     }
     section {
         width: 580px;
+        height: 1050px;
     }
     aside img {
         width: 580px;
@@ -522,27 +523,23 @@ width: 26px;
         height: 300px;
         margin-right: 30px;
         margin-bottom: 20px;
-   
     }
     #texto_der h1 {
-        padding: 5px;
-        text-align: center;
-        font-size: 27px;
+        font-size: 25px;
     }
     #texto_der p {   
-        padding: 5px;
+        padding: 2px;
         font-size: 15px;
     }
     #contenedor_izq,#contenedor_cen, #contenedor_der {
         width: 120px;
         height: 200px;
-        background-color: rgb(0, 0, 0);
-        margin-top: 100px;
+        margin-top: 120px;
         margin-bottom: 30px;
-
     }
     #contenedor_izq {
-        margin-left: 50px;
+        margin-left: 70px;
+        margin-right: 20px;
         background-size: 120px 200px;
     }
 
@@ -553,126 +550,83 @@ width: 26px;
         font-size: 15px;
     }
     #contenedor_cen {
-        margin-left: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
         background-size: 120px 200px;
     }
     #contenedor_der {
-        margin-left: 40px;
-        margin-right:50px; 
-        float:right;
-        background-image: url("imagenes/templo_edited.jpg");
+        margin-left: 20px;
+        margin-right:70px; 
         background-size: 120px 200px;
     }
-    #contenedor_der:hover #cont_der_text {
-        opacity: 1;
-    }
-    #boton_der a:hover {
-        opacity: 0.5;
-    }
     #cont-dest {
-        color: white;
-        background-color:rgba(255, 255, 255, 0.322);
-        width: 960px;
+        width: 580px;
         height: 50px;
-        box-sizing: border-box;
     }
     #cont-dest h2 {
-        margin-top:10px;
-        margin-bottom: auto;
+        margin-top:5px;
         margin-left: 15px;
-        padding: 5px;
+        padding: 2px;
     }
-    #destino, #video {
-        width: 50%;
-        float: left;
+    #cont-dest h4, p {
+        margin:2 0;
     }
-    #video {
-     margin-top: 0px;
-     margin-left: 20px;
+
+    #video video{
+     margin-left: 0px;
+     width: 300px;
+     height: 300px;
     }
     #destino {
-        color: white;
-        font-size: 16px;
-        width: 400px;
-        box-sizing: border-box;
-        padding: 10px;
-        margin-left: 25px;
-        float: left;   
+        font-size: 12px;
+        width: 200px;
+        padding: 5px;
+        margin-left: 25px;  
     }
     #galeria{
-        width: 960px;
+        width: 580px;
         height: 300px;
-        float: left;
-        margin-top: 50px;
+        margin-top: 15px;
     }
     #cont_foto_1,#cont_foto_2, #cont_foto_3{
-        width: 280px;
-        height: 200px;
+        width: 160px;
+        height: 150px;
         margin-bottom: 30px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right:10px;
-        margin-top: 15px;
-        box-sizing: border-box;
-        border-radius: 15px;
-        box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876);
+        margin-top: 10px;
     }
     #cont_foto_1{
-        background-image:url("imagenes/cont_1_edited.jpg");
-        background-size: 280px 200px;
-        float: left;
+        background-size: 160px 150px;
+        margin-left: 20px;
+        margin-right: 15px;
+   
     }
     #cont_foto_1 img, #cont_foto_2 img,#cont_foto_3 img {
-        border-radius: 15px;
-        box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.876); 
+        border-radius: 10px;
     }
     #cont_info_1, #cont_info_2,#cont_info_3 {
-        color:white;
-        background-color: rgba(68, 68, 67, 0.705);
-        width: 280px;
-        height: 200px;
-        box-sizing: border-box;
-        border-radius: 15px;
-        text-align: center;
-        opacity: 0;
-    }
-    #cont_info_1 {
-        float: left;
-    }
-    #cont_foto_1:hover #cont_info_1{
-        opacity: 1;
-    }
-    #boton_cont_1 a, #boton_cont_2 a, #boton_cont_3 a{
-        text-decoration: none;
-        color: white;
+        width: 160px;
+        height: 150px;
+        border-radius: 10px;
+        font-size: 12px;
     }
     #cont_foto_2{
-        background-image:url("imagenes/cont_2_edited.jpg");
-        background-size: 280px 200px;
-        float: left;
-    }
-    #cont_info_2 {
-        float: left;
-    }
-    #cont_foto_2:hover #cont_info_2 {
-        opacity: 1;
+        background-size: 160px 150px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     #cont_foto_3 {
-        background-image:url("imagenes/cont_3_edited.jpg");
-        background-size: 280px 200px;
-        float: right;
-    }
-    #cont_info_3 {
-        float: right;
-    }
-    #cont_foto_3:hover #cont_info_3{
-        opacity: 1;
+        background-size: 160px 150px;
+        margin-left: 15px;
+        margin-right: 20px;
     }
     #nosotros_text, #nosotros_text_2, #nosotros_text_3 {
         color: white;
         margin-top: 25px;
         margin-left: 30px;
         margin-right: 30px;
-        font-size: 17px;
+        font-size: 15px;
         text-align: justify;
     }
     #nosotros_text {

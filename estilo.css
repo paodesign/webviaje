@@ -932,10 +932,10 @@ width: 26px;
         margin-top: 0px;
     }
     #nos_foto_izq {;
-        margin-left: 15%;
+        margin-left: 20%;
     }
     #nos_foto_der {
-        margin-left: 15%;
+        margin-left:20%;
     }
     #nos_info_1, #nos_info_2 {
         width: 200px;
@@ -963,7 +963,7 @@ width: 26px;
         height: 200px;
         border-radius: 15px;
         float:none;
-        margin-left: 20%;
+        margin-left: 25%;
         margin-top: 10%;
         margin-bottom: 5%;
     }
@@ -973,28 +973,18 @@ width: 26px;
     }
     #nos_foto2 {
         background-image: url(./imagenes/7_edited.jpg);
-        border-radius: 15px;
-        margin-right: 16px;
-        margin-left: 16px;
+      
     }
     #nos_foto3 {
         background-image: url(./imagenes/1edited.jpg);
-        border-radius: 15px;
-        margin-right: 16px;
-        margin-left: 16px;
+       
     }
     #nos_foto4 {
         background-image: url(./imagenes/2_edited.jpg);
-        border-radius: 15px;
-        margin-left: 16px;
-        margin-right: 16px;
     }
     #nos_foto5 {
         background-image: url(./imagenes/5_edited.jpg);
-        border-radius: 15px;
-        margin-left: 16px;
-        margin-right: 20px;
-    }
+      
     footer {   
         width: 90%;
         height: auto;

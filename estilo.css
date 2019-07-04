@@ -834,7 +834,7 @@ width: 26px;
     }
     #video video {
      margin-top: 0px;
-     margin-left: 5%;
+     margin-left: 10%;
      width: 250px;
      height: 150px;
     }
@@ -861,7 +861,7 @@ width: 26px;
         height: auto;
         float: none;
         margin-top: 10%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
     #cont_foto_1,#cont_foto_2, #cont_foto_3{
         width: 250px;

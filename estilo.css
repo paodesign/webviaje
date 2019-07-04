@@ -824,34 +824,39 @@ width: 26px;
         margin-bottom: 3%;
     }
     #cont-dest {
-        color: white;
-        background-color:rgba(255, 255, 255, 0.322);
-        width: 960px;
+        width: 100%;
         height: 50px;
-        box-sizing: border-box;
     }
-    #cont-dest h2 {
-        margin-top:10px;
-        margin-bottom: auto;
-        margin-left: 15px;
-        padding: 5px;
-    }
+
     #destino, #video {
-        width: 50%;
-        float: left;
+        width: 100%;
+        float: none;
     }
-    #video {
+    #video video {
      margin-top: 0px;
-     margin-left: 20px;
+     margin-left: 5%;
+     width: 250px;
+     height: 150px;
     }
     #destino {
         color: white;
         font-size: 16px;
-        width: 400px;
+        width: 90%;
+        height: auto;
         box-sizing: border-box;
-        padding: 10px;
-        margin-left: 25px;
-        float: left;   
+        padding: 0px;
+        margin-left: 4%;
+        float: none;
+        text-align: center;   
+    }
+    #destino p {
+        margin: 10px;
+    }
+    #destino h3 {
+        margin: 10px;
+    }
+    #destino h4 {
+        margin: 10px;
     }
     #galeria{
         width: 960px;

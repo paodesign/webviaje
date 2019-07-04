@@ -931,7 +931,7 @@ width: 26px;
         height:200px ;
         margin-top: 0px;
     }
-    #nos_foto_izq {;
+    #nos_foto_izq {
         margin-left: 20%;
     }
     #nos_foto_der {
@@ -967,26 +967,8 @@ width: 26px;
         margin-top: 10%;
         margin-bottom: 5%;
     }
-    #nos_foto1 {
-        background-image: url(./imagenes/8_edited.jpg);
-       
-    }
-    #nos_foto2 {
-        background-image: url(./imagenes/7_edited.jpg);
-      
-    }
-    #nos_foto3 {
-        background-image: url(./imagenes/1edited.jpg);
-       
-    }
-    #nos_foto4 {
-        background-image: url(./imagenes/2_edited.jpg);
-    }
-    #nos_foto5 {
-        background-image: url(./imagenes/5_edited.jpg);
-      
     footer {   
-        width: 90%;
+        width:90%;
         height: auto;
     }
     #texto_contacto {
@@ -1045,11 +1027,7 @@ width: 26px;
      }
 
     #redes li {
-        display: inline;
-        clear: both;
         margin-left: 4%;
-
-
     }
     #redes li a {   
         display:inline-block;
@@ -1058,7 +1036,5 @@ width: 26px;
         padding: 5px;
         padding-left:5px;
     }
-    #redes img:hover {
-    width: 26px;
-    }
+    
 }
